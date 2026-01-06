@@ -14,7 +14,7 @@ spring:
     console:
       enabled: false
 
-security:
-  jwt:
-    secret: test-secret-123456789012345678901234
-    expiration: 3600000
+  security:
+    jwt:
+      secret: test-secret-123456789012345678901234
+      expiration: 3600000
