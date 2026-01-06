@@ -1,6 +1,6 @@
 # Task Manager API
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/kleberson154/TaskManagerAPI/maven.yml?branch=main)](https://github.com/SEU_USUARIO/TaskManagerAPI/actions)  
+[![Build Status](https://img.shields.io/github/actions/workflow/status/kleberson154/TaskManagerAPI/maven.yml?branch=main)](https://github.com/kleberson154/TaskManagerAPI/actions)  
 [![Deploy Status](https://img.shields.io/badge/deploy-railway-brightgreen)](https://taskmanagerapi-production-139f.up.railway.app)  
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
