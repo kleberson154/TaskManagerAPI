@@ -6,6 +6,9 @@
 
 API RESTful para **gerenciamento de tarefas**, com **autenticação JWT**, **Swagger** e deploy automático via **Railway**.
 
+<img width="1024" height="261" alt="Gemini_Generated_Image_o7wzn9o7wzn9o7wz" src="https://github.com/user-attachments/assets/f3adfa4f-fd30-4e38-8cb9-fe964e430cbc" />
+
+
 ---
 
 ## 🏗 Arquitetura
@@ -14,7 +17,7 @@ API RESTful para **gerenciamento de tarefas**, com **autenticação JWT**, **Swa
 - **Segurança:** Spring Security + JWT  
 - **Banco de Dados:** PostgreSQL (via JPA/Hibernate)  
 - **Deploy:** Railway (Docker)  
-- **Testes:** JUnit 5 + Mockito  
+- **Testes:** JUnit 5 + Mockito
 
 ---
 
