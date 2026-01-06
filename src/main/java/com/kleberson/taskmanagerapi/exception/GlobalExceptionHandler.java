@@ -38,6 +38,20 @@ public class GlobalExceptionHandler {
                 ));
     }
 
+    @ExceptionHandler(EmailAlreadyExistsException.class)
+    public ResponseEntity<ErrorResponse> handleEmailAlreadyExists(
+            EmailAlreadyExistsException ex) {
+
+        return ResponseEntity
+                .status(HttpStatus.CONFLICT)
+                .body(new ErrorResponse(
+                        409,
+                        "Conflict",
+                        ex.getMessage(),
+                        LocalDateTime.now()
+                ));
+    }
+
     @ExceptionHandler(BadRequestException.class)
     public ResponseEntity<ErrorResponse> handleBadRequest(
             BadRequestException ex) {
@@ -66,4 +80,3 @@ public class GlobalExceptionHandler {
                 ));
     }
 }
-
