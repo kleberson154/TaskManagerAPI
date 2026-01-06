@@ -10,7 +10,7 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: ${HIBERNATE_DDL_AUTO}
+      ddl-auto: update
     show-sql: true
     properties:
       hibernate:
